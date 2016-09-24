@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+	article.article-content
+		.container.main-content
+			.col-md-12
+				.article-head
+					h1= article.title
+				.article-context
+					p.
+						#{article.context}

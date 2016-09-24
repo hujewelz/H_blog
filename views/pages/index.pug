@@ -1,0 +1,25 @@
+extends ../layout
+
+block content
+	section.content-wrap
+		.container
+			.col-md-8.main-content
+				each article in articles
+					article.post
+						.post-head
+							h1.post-title
+								a(href='/detail/'+article.article_id)= article.title
+							p.post-meta
+								span 作者：
+									a(href="#").post-author #{article.author} 
+								time.date(datetime='2016-10-10') #{article.date}
+						.post-content
+							p.
+								#{article.content}
+						.post-readmore
+							a.btn.btn-default.btn-lg(href='detail/'+article.article_id) 阅读全文
+						.footer.clearfix
+							hr
+							.pull-left.tag-list
+								a(href='#') Ghost
+								a(href='#') 深度玩转Ghost

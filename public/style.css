@@ -1,0 +1,216 @@
+html, body {
+	color: #505050;
+	line-height: 1.75em;
+	background: #ebebeb;
+	font-family: "Helvetica Neue", Helvetica;
+}
+
+.main-header {
+	width: 100%;
+	background-colr: #fff;
+	background-image: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg);
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	padding: 80px 0;
+}
+
+.main-header .branding {
+	font-size: 3.5em;
+	color: #303030;
+}
+
+a {
+	color: #e67e22;
+	outline: none;
+	text-decoration: none;
+}
+
+a:active, a:hover, a img {
+	outline: none;
+	text-decoration: none;
+}
+
+a:visited, a:link {
+	outline: none;
+	text-decoration: none;
+}
+
+.main-navgation {
+	text-align: center;
+	background-color: #fff;
+	border-top: 1px solid #ebebeb;
+	border-bottom: 3px solid #e1e1e1;
+	margin-bottom: 35px;
+}
+
+.main-navgation .main-menu {
+	padding: 0;
+	margin: 0;
+}
+
+.main-navgation .main-menu li.nav-current{
+	border-bottom: 3px solid #e67e22;
+	margin-bottom: -2px;
+}
+
+.main-navgation .main-menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+.main-navgation .main-menu li a{
+	text-decoration: none;
+	color: #505050;
+	display: block;
+	line-height: 4em;
+	padding: 0 21px;
+}
+
+.main-content .post {
+	background-color: #fff;
+	padding: 35px;
+	margin-bottom: 35px;
+}
+.main-content .post .post-head {
+	/*padding: 20px 0;*/
+	text-align: center;
+}
+
+.main-content .post .post-title a {
+	color: #404040;
+
+}
+
+.main-content .post .post-title a: {
+	color: #404040;
+	
+}
+
+.main-content .post .post-content {
+	font-size: 18px;
+	line-height: 1.45em;
+	padding: 20px 30px 0;
+}
+
+.main-content .post .post-readmore {
+	padding: 20px 30px;
+}
+
+.main-content .post .post-readmore .btn-default {
+	background-color: #e67e22;
+	color: #fff;
+	transition: all 0.2s ;
+	-webkit-transition: all 0.2s ;
+}
+
+.tag-list {
+	padding: 0 0 0 10px;
+}
+
+.sidebar .widget {
+	background-color: #fff;
+	padding: 15px 30px;
+}
+
+.widget {
+	margin-bottom: 35px;
+}
+
+.widget .title {
+	margin-top: 10px;
+	margin-bottom: 21px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.widget .link-download {
+	margin-top: 21px;
+}
+
+.widget .link-download .btn-default {
+	width: 100%;
+	background-color: #e67e22;
+	color: #fff;
+}
+
+.widget .tag-cloud ul {
+	margin: 0;
+	padding: 0;
+}
+
+.widget .tag-cloud li {
+	list-style: none;
+	display: inline-block;
+	border: 1px solid #ebebeb;
+	
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+.widget .tag-cloud li a {
+	display: block;
+	padding: 2px 4px;
+	color: #a1a1a1;
+}
+
+.widget .tag-cloud li a:hover {
+	background-color: #e67e22;
+	color: #fff;
+}
+
+.page-control {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.page-control .page {
+	background: #e67e22;
+	padding: 12px;
+}
+
+.page-control .link {
+	background: #e67e22;
+	padding: 12px;
+	margin-left: 6px;
+}
+
+.page-control .link a {
+	display: inline-block;
+	line-height: 2em;
+	color: #fff;
+}
+
+.main-footer {
+	background: #202020;
+  padding: 35px 0 0;
+  color: #959595;
+}
+
+.main-footer .widget .title {
+	color:#fff;
+}
+/*.main-footer .article {
+	border: 1px 
+}*/
+
+
+/* detail page */
+
+.article-content .main-content {
+	background-color: #fff;
+	padding: 20px 0 30px;
+}
+
+.article-content .main-content .article-head {
+	margin-left: 40px;
+}
+
+.article-content .main-content .article-context p {
+  text-indent: 2em;
+	font-size: 18px;
+	line-height: 1.75em;
+	padding: 20px 10px;
+}
