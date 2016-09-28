@@ -5,6 +5,7 @@ var app = express();
 
 app.use(express.static(path.join(__dirname, 'bower_components')));
 app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.bodyParser());
 app.set('views', __dirname+'/views/pages');
 app.set('view engine', 'pug');
 
