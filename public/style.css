@@ -7,7 +7,7 @@ html, body {
 
 .main-header {
 	width: 100%;
-	background-colr: #fff;
+	background-color: #fff;
 	background-image: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg);
 	background-position: center center;
 	background-size: cover;
@@ -67,6 +67,16 @@ a:visited, a:link {
 	padding: 0 21px;
 }
 
+/*.main-navgation .main-menu li a:link, .main-navgation .main-menu li a:visited {
+	color: #ff0;
+}*/
+
+.main-navgation .main-menu li a:hover, .main-navgation .main-menu li a:active {
+	color: #e67e22;
+}
+
+ 
+
 .main-content .post {
 	background-color: #fff;
 	padding: 35px;
@@ -79,18 +89,23 @@ a:visited, a:link {
 
 .main-content .post .post-title a {
 	color: #404040;
-
 }
 
-.main-content .post .post-title a: {
+.main-content .post .post-title a {
 	color: #404040;
-	
 }
 
 .main-content .post .post-content {
 	font-size: 18px;
 	line-height: 1.45em;
 	padding: 20px 30px 0;
+}
+
+.main-content .post .post-content p {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
 }
 
 .main-content .post .post-readmore {
@@ -213,4 +228,12 @@ a:visited, a:link {
 	font-size: 18px;
 	line-height: 1.75em;
 	padding: 20px 10px;
+}
+
+/* post page */
+
+.post-wrap {
+	margin-top: -35px;
+	padding-top: 35px;
+	background-color: #fff;
 }

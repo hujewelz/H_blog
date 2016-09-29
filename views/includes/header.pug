@@ -10,12 +10,13 @@ nav.main-navgation
 			.col-sm-12
 				.collapse.navbar-collapse#main-menu
 					ul.main-menu
+						-var links = ['/', '/post', '/post', '/post', '/post', '/post']
 						each item, i in ['首页', '论坛', '快捷手册', '中文文档', '下载', '关于我们']
 							if i==0
 								li.nav-current(role="presentation")
 									a(href="/")= item
 							else 
 								li(role="presentation")
-									a(href="#")= item
+									a(href=links[i])= item
 							
 							
