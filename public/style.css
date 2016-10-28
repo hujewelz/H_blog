@@ -6,13 +6,13 @@ html, body {
 }
 
 .main-header {
-	width: 100%;
 	background-color: #fff;
 	background-image: url(http://static.ghostchina.com/image/6/d1/fcb3879e14429d75833a461572e64.jpg);
 	background-position: center center;
 	background-size: cover;
-	text-align: center;
 	padding: 80px 0;
+	text-align: center;
+	width: 100%;
 }
 
 .main-header .branding {
